@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Mecânica Porto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo Oficina Mecânica Porto">
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre a Empresa</h2>
+
+                <p>Insira um texto sobre a história, missão, visão e valores da sua oficina aqui.</p>
+
+                <img src="foto-oficina.jpg" alt="Foto da Oficina Mecânica Porto"> </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container">
+                <h2>Serviços</h2>
+
+                <div class="servicos-grid">
+                    <div class="servico">
+                        <img src="icone-freio.png" alt="Reparação de Freios">
+                        <h3>Reparação de Freios</h3>
+                        <p>Texto descritivo sobre o serviço de reparação de freios.</p>
+                    </div>
+
+                    <div class="servico">
+                        <img src="icone-suspensao.png" alt="Reparo de Suspensão">
+                        <h3>Reparo de Suspensão</h3>
+                        <p>Texto descritivo sobre o serviço de reparo de suspensão.</p>
+                    </div>
+
+                    </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+
+                <form action="enviar.php" method="post"> <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oficina Mecânica Porto</p>
+
+            <p>Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
+            <p>Telefone: (00) 1234-5678</p>
+
+            <div class="redes-sociais">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/X?"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
