@@ -13,6 +13,18 @@ body {
     padding: 20px;
 }
 
+#contato{
+    background-color: #204889;   
+
+
+}
+
+h2{
+    color: white;
+    
+
+}
+
 /* Estilos do Cabeçalho (Header) */
 header {
     background-color: #204889; 
@@ -85,8 +97,9 @@ section h2 {
 
 /* Estilos do Rodapé (Footer) */
 footer {
-    background-color: #333;
+    background-color: #204889;
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    margin-top: 1px;
 }
