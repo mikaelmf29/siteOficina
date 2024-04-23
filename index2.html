@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Porto Auto Services</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header>
+ <div class="logo">
+ <a href="#home"><img src="logo.png" alt="Porto Auto Services"></a>
+ </div>
+ <nav>
+ <ul>
+ <li><a href="#home">Início</a></li>
+ <li><a href="#about">Sobre nós</a></li>
+ <li><a href="#services">Serviços</a></li>
+ <li><a href="#contact">Contato</a></li>
+ </ul>
+ </nav>
+ </header>
+ <section id="home" class="section">
+ <h1>Porto Auto Services</h1>
+ <p>Melhor Mecânica no centro de Erechim RS</p>
+ <a href="#services" class="cta">Marque uma avaliação</a>
+ </section>
+ <section id="about" class="section">
+ <h2>Sobre nós</h2>
+ <p>Há duas décadas, nossa oficina mecânica tem sido um baluarte de excelência no setor automotivo. Com um legado de 20 anos de experiência e dedicação inabalável, construimos uma reputação sólida baseada na qualidade dos nossos serviços e no compromisso com a satisfação do cliente. Ao longo desses anos, temos nos mantido na vanguarda da indústria, adaptando-nos as mudanças tecnológicas e investindo constantemente na capacitação da nossa equipe.</p>
+ <img src="equipe.jpg" alt="Equipe Porto Auto Services">
+ </section>
+ <section id="services" class="section services">
+ <h2>Nossos serviços</h2>
+ <div class="service-item">
+ <img src="freios.jpg" alt="Reparação de freios">
+ <h3>Reparação de freios</h3>
+ <p>Garantimos a sua segurança com nosso serviço de reparação de freios.</p>
+ </div>
+ <div class="service-item">
+ <img src="motor.jpg" alt="Verificação do motor">
+ <h3>Verificação do motor</h3>
+ <p>Mantenha seu motor em excelentes condições com nossa verificação completa.</p>
+ </div>
+ <div class="service-item">
+ <img src="suspensao.jpg" alt="Reparação de suspensão">
+ <h3>Reparação de suspensão</h3>
+ <p>Obtenha uma condução suave e confortável com nosso serviço de reparação de suspensão.</p>
+ </div>
+ <div class="service-item">
+ <img src="transmissao.jpg" alt="Reparo de transmissão">
+ <h3>Reparo de transmissão</h3>
+ <p>Contamos com especialistas capacitados para realizar reparos em transmissões automáticas e manuais.</p>
+ </div>
+ </section>
+ <section id="contact" class="section">
+ <h2>Entre em contato</h2>
+ <form action="enviar-mensagem.php" method="post">
+ <label for="nome">Nome:</label>
+ <input type="text" id="nome" name="nome" required>
+ <label for="email">E-mail:</label>
+ <input type="email" id="email" name="email" required>
+ <label for="mensagem">Mensagem:</label>
+ <textarea id="mensagem" name="mensagem" required></textarea>
+ <button type="submit">Enviar</button>
+ </form>
+ <div class="social-media">
+ <h3>Siga-nos nas redes sociais:</h3>
+ <a href="#"><img src="facebook.png" alt="Facebook"></a>
+ <a href="#"><img src="instagram.png" alt="Instagram"></a>
+ <a href="#"><img src="twitter.png" alt="Twitter"></a>
+ </div>
+ </section>
+ <script src="script.js"></script>
+</body>
+</html>
